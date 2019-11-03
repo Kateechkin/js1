@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/montserrat/montserrat-regular.ttf);
+    font-weight: 400;
+}
+.container {
+    width: 2560px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+}
+.tools {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button, input {
+    cursor: pointer;
+    outline: none;
+}
+.tool-button {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    background: oldlace;
+    border-radius: 10px 20px;
+    z-index: 1;
+}
+
+#select-size {
+width: 60px;
+height: 20px;
+margin: 0 0 40px 0;
+}
+#select-size option {
+    font-size: 20px;
+}
+.wrap-select {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+}
+
+.tool-button img {
+    width: 50px;
+    height: 50px;
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+}
+.wrap-canvas {
+display: flex;
+justify-content:center ;
+}
+#canv {
+    width: 1000px; 
+    height: 800px; 
+}
+.canv {
+    width: 1000px;
+    height: 800px;
+    border: 1px solid red;
+    background: white;
+}
+.plus {
+    border: none;
+}
+/* .wrap-coord {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+} */
+.coordinates {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+#x-coord, #y-coord {
+    display: block;
+}
+

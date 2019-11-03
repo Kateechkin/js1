@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Canvas</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tools">
+            <div class="wrap">
+                <button class="tool-button" data-name='brush'><img class="imgclass" src="img/brush-icon.png"></button>
+                <button class="tool-button" data-name='circle'><img class="imgclass" src="img/circle.png"></button>
+                <button class="tool-button" data-name='eraser'><img class="imgclass" src="img/eraser-icon.png"></button>
+                <button class="tool-button" data-name='background'><img class="imgclass" src="img/bkg.png"></button>
+                <button class="tool-button" data-name='polygon'><img class="imgclass" src="img/line-icon.png"><br>polygon</button>
+                <div class="wrap-select">
+                    <select id='select-size'>
+                        <option>5</option>
+                        <option>10</option>
+                        <option>15</option>
+                        <option>20</option>
+                    </select>
+                
+                <input type="color" id="select-color">
+            </div>
+            </div>
+        </div>
+        <div class="wrap-canvas">
+            <div class="canv">
+                <canvas id="canv" width="1000" height="800"></canvas>
+            </div>
+        </div>
+        <div class="coordinates">
+            <p id="x"><b>Координаты по x: </b> <span id="x-coord"></span></p>
+            <p id="y"><b> Координаты по y: </b> <span id="y-coord"></span></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
