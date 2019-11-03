@@ -1,8 +1,0 @@
-.first {
-    font-size: 15px;
-    text-decoration: none;
-    color: red;
-}
-.modal:target {
-    display: block;
-}
